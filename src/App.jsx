@@ -24,7 +24,7 @@ function App() {
 
   const handleClick = (dir) => {
   //  console.log("Index", index);
-   const lastIndex = images.length-1;
+   const lastIndex = images.length - 1;
 
    if(dir === "left"){
     if(index === 0){
